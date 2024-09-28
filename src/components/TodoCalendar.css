@@ -1,0 +1,44 @@
+.TodoCalendar {
+    background: #1A1A1A;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 255, 204, 0.1);
+    margin: 1rem 0;
+}
+
+.react-calendar {
+    border: none; 
+    background: #1A1A1A; 
+    color: #00FFCC;
+}
+
+.react-calendar__navigation {
+    color: #00FFCC; 
+}
+
+.react-calendar__navigation button {
+    font-size: 1.2rem;
+    color: #00FFCC;
+}
+
+.react-calendar__month-view__label {
+    color: #00FFCC;
+}
+
+.react-calendar__tile {
+    background: transparent; 
+    color: #fff;
+}
+
+.react-calendar__tile--hover {
+    background: rgba(0, 255, 204, 0.2);
+}
+
+.react-calendar__tile--active {
+    background: rgba(0, 255, 204, 0.4); 
+}
+
+.marked {
+    background: #00FFCC;
+    border-radius: 50%;
+}
